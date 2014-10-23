@@ -26,7 +26,7 @@ public class DatabaseTest {
 		// testing the add and get
 		Database T = new Database();
 		T.add("amount", "900");
-		assertEquals(T.get("900"),"amount");
+		assertEquals(T.get().get("amount"),"900");
 	}	
 
 	@Test
@@ -36,7 +36,7 @@ public class DatabaseTest {
 		T.add("amount", "900");
 		T.add("sku", "12345");
 		T.remove("amount", "900");
-		assertEquals(T.get("900"),null);
+		assertEquals(T.get().get("amount"),null);
 	}
 	
 	@Test

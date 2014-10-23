@@ -2,8 +2,6 @@ package org.uiowa.cs2820.engine;
 
 import java.util.HashMap; // imaginary storage??
 import java.util.Set;     // for method showallname()
-import java.util.List;
-import java.util.ArrayList;
 
 // University of Iowa 
 // CS:2820:AAA Object-Oriented Software Development

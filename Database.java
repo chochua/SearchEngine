@@ -34,11 +34,11 @@ public class Database<E,T> {
 	public void reset() {
 		storage.clear();
 	}
-	// search for word, returning (path, word)
+	// search for word, returning path
 	public String get(String word) {
 		for ( String i : storage.keySet()) { 
 			if (storage.get(i) == word)  { 
-				return (i + ',' + word) ;
+				return i ;
 			}
 		} 
 		return null;
